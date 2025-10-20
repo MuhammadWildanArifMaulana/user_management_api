@@ -1,15 +1,3 @@
-# User Management API
-
-Minimal REST API for user management with authentication (JWT), file upload (Cloudinary), and basic security (CORS, Helmet).
-
-## Environment variables
-
-Required in `.env`:
-
-- PORT (optional, default 5000)
-- DATABASE_URL (postgres connection string)
-- JWT_SECRET
-
 # User Management API (Panduan Bahasa Indonesia)
 
 Minimal REST API untuk manajemen user dengan autentikasi (JWT), upload file ke Cloudinary, dan keamanan dasar (CORS, Helmet).
@@ -37,8 +25,6 @@ CLOUDINARY_SECRET=your_api_secret
 CORS_ORIGIN=http://localhost:3000
 BCRYPT_SALT_ROUNDS=10
 ```
-
-Catatan: jangan pernah commit file `.env` ke Git. Gunakan `.env.example` di repo untuk menunjukkan variabel yang diperlukan tanpa nilai sensitif.
 
 ## Instal dependensi
 
@@ -93,8 +79,6 @@ Setelah server berjalan buka:
 ```
 http://localhost:5000/api/docs
 ```
-
-Swagger memungkinkan Anda menguji semua endpoint dari browser.
 
 ### Cara menggunakan Swagger untuk endpoint yang dilindungi
 
