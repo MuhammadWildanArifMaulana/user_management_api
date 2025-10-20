@@ -161,11 +161,6 @@ node tests/integration.js
 
 Jika ingin menambahkan `npm` script seperti `test:integration`, bisa tambahkan.
 
-## README: file penting yang harus ada di repo
-
-- `.gitignore` harus berisi `.env` (sudah ada di repo Anda). Pastikan `.env` tidak ter-commit.
-- Tambahkan `.env.example` (tanpa kredensial) agar orang lain tahu variabel apa yang diperlukan.
-
 ## Troubleshooting umum
 
 - Error `column "created_at" does not exist`: jalankan `npm run migrate` dan restart server.
