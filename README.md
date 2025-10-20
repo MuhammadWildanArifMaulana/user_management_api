@@ -1,4 +1,4 @@
-# User Management API (Panduan Bahasa Indonesia)
+# User Management API
 
 Minimal REST API untuk manajemen user dengan autentikasi (JWT), upload file ke Cloudinary, dan keamanan dasar (CORS, Helmet).
 
